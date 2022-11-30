@@ -9,5 +9,5 @@ if second_number == 0:
   st.write("By Richik Majumder (21f1000460)")
 else:
   division = first_number/second_number
-  st.write("The division of first_number by second_number is", str(division))
+  st.write("Answer is", str(division))
   st.write("By Richik Majumder (21f1000460)")
