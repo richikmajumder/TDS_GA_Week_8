@@ -1,7 +1,6 @@
 import streamlit as st
-st.write("""TDS week 8 Graded Assignment
-Build a streamlit web application for the following usecase and host the application using heroku.
-UseCase : Division of 2 given numbers . """)
+st.write("""TDS week 8 Graded Assignment""")
+st.write("""Streamlit web application for division of 2 given numbers""")
 first_number = st.number_input("Enter first number")
 second_number = st.number_input("Enter second number")
 if second_number == 0:
