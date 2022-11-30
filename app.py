@@ -6,6 +6,7 @@ first_no = st.number_input("Enter first number")
 second_no = st.number_input("Enter second number")
 if second_no == 0:
   st.write("Division by zero not allowed")
+  st.write("By Richik Majumder (21f1000460)")
 else:
   division = first_no/second_no
   st.write("The product of given numbers is", str(division))
